@@ -1,0 +1,441 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+.mapbackground{
+    background-color: black;
+    background-image:url("img/fashion_map.png");
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+.bottombar{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+#homeicon{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+#arrows{
+    font-size: 60px;
+}
+
+#title1{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    margin-top: 75px;
+    margin-left: 720px;
+}
+
+#title2{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    margin-top: 75px;
+    margin-left: 580px;
+}
+
+#title3{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    margin-top: 75px;
+    margin-left: 780px;
+}
+
+#title4{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    margin-top: 75px;
+    margin-left: 780px;
+}
+
+.content1{
+    display: flex;
+    flex-direction: row;
+}
+
+.abouttext{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    width:500px;
+}
+
+#balenciagasubtitle{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    border-bottom: 3px solid #AB2013;
+    width: 500px;
+}
+
+#maisonmargielasubtitle{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    border-bottom: 3px solid #1F36AB;
+    width: 500px;
+}
+
+#sacaisubtitle{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    border-bottom: 3px solid #CCA30E;
+    width: 500px;
+}
+
+#aboutbody{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 23px;
+    font-style: normal;
+}
+
+#video{
+    margin-top: 60px;
+    margin-left: 500px;
+}
+
+#images{
+    display: flex;
+    flex-direction: row;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+}
+
+#listtitle1{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    border-bottom: 3px solid #AB2013;
+    margin-left: 200px;
+    width: 500px;
+}
+
+#online1{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    align-content: center;
+    width: 200px;
+    padding-top: 8px;
+    margin-left: 200px;
+}
+
+#online1:hover{
+    background-color: #AB2013;
+    -webkit-transform: translate(25%,0%);
+    -ms-transform: translate(25%, 0%);
+    transform: translate(25%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#look11{
+    margin-left: 500px;
+}
+
+#look09{
+    margin-left: 60px;
+}
+
+#alaskaboot{
+    margin-left: 50px;
+}
+
+#tomargiela1{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    text-align: right;
+    width: 475px;
+    margin-left: 1770px;
+}
+
+#tomargiela1:hover{
+    background-color: #1F36AB;
+    -webkit-transform: translate(5%,0%);
+    -ms-transform: translate(5%, 0%);
+    transform: translate(5%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#listtitle2{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    border-bottom: 3px solid #1F36AB;
+    margin-left: 200px;
+    width: 500px;
+}
+
+#online2{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    align-content: center;
+    width: 432px;
+    padding-top: 8px;
+    margin-left: 200px;
+}
+
+#online2:hover{
+    background-color: #1F36AB;
+    -webkit-transform: translate(25%,0%);
+    -ms-transform: translate(25%, 0%);
+    transform: translate(25%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#look21{
+    margin-left: 500px;
+}
+
+#look23{
+    margin-left: 40px;
+}
+
+#makeup{
+    margin-left: 50px;
+}
+
+#tobalenciaga{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    text-align: left;
+    width: 330px;
+    margin-left: 200px;
+}
+
+#tobalenciaga:hover{
+    background-color: #AB2013;
+    -webkit-transform: translate(-10%,0%);
+    -ms-transform: translate(-10%, 0%);
+    transform: translate(-10%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#tosacai1{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    text-align: right;
+    width: 180px;
+    margin-left: 1540px;
+}
+
+#tosacai1:hover{
+    background-color: #CCA30E;
+    -webkit-transform: translate(10%,0%);
+    -ms-transform: translate(10%, 0%);
+    transform: translate(10%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#listtitle3{
+    font-family: "ocr-a-std", monospace;
+    color:white;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    border-bottom: 3px solid #CCA30E;
+    margin-left: 200px;
+    width: 500px;
+}
+#online3{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    align-content: center;
+    width: 550px;
+    padding-top: 8px;
+    margin-left: 200px;
+}
+
+#online3:hover{
+    background-color: #CCA30E;
+    -webkit-transform: translate(25%,0%);
+    -ms-transform: translate(25%, 0%);
+    transform: translate(25%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#look-9{
+    margin-left: 450px;
+}
+
+#look33{
+    margin-left: 30px;
+}
+
+#blazers{
+    margin-left: 30px;
+}
+
+#tomargiela2{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    text-align: right;
+    width: 475px;
+    margin-left: 200px;
+}
+
+#tomargiela2:hover{
+    background-color: #1F36AB;
+    -webkit-transform: translate(-5%,0%);
+    -ms-transform: translate(-5%, 0%);
+    transform: translate(-5%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+#tomap{
+    font-family: "ocr-a-std", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+    text-align: right;
+    width: 125px;
+    margin-left: 1480px;
+}
+
+#tomap:hover{
+    background-color: #5CAB1B;
+    -webkit-transform: translate(10%,0%);
+    -ms-transform: translate(10%, 0%);
+    transform: translate(10%,0%);
+    white-space: nowrap;
+    transition: all 1.5s ease;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.pinpoints{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 60px;
+    width: 10%
+}
+
+.pinpoints img{
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.locations{
+    position: absolute;
+    margin-top: 870px;
+    margin-left: 200px;
+    font-family: "ocr-a-std", monospace;
+    font-size: 25px;
+    color: white;
+}
+
+.loctions p{
+    position:absolute;
+    opacity: 0;
+    transition: opacity;
+}
+
+#balenciagapp:hover ~ #location1{
+    opacity: 1;
+}
+
+#margielapp:hover ~ .location2{
+    opacity: 1;
+}
+
+#sacaipp:hover ~ .location3{
+    opacity: 1;
+}
+
+#balenciagapp{
+    margin-top: 330px;
+    margin-left: 410px;
+}
+
+#margielapp{
+   margin-top: 260px;
+   margin-left: 450px;  
+}
+
+#sacaipp{
+   margin-top: 260px;
+   margin-left: -1px;
+   z-index: 1;  
+}
